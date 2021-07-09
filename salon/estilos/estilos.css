@@ -1,0 +1,74 @@
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+i {
+  padding: 0 0.5em;
+}
+html {
+  font-family: "Roboto Condensed", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  padding: 1em;
+}
+
+header nav {
+  background-color: indianred;
+  padding: 0;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+header nav ul li {
+  padding: 0.5em 1em;
+  margin: 0 0.2em;
+  cursor: pointer;
+  transition: background-color 0.5s ease-out;
+}
+
+header nav ul li:hover {
+  background-color: indigo;
+}
+
+main {
+  padding: 2em;
+  background-color: #ccc;
+}
+
+footer {
+  padding: 2em;
+}
+
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul li {
+  cursor: pointer;
+  margin: 0.2em 1em;
+}
+
+.icono-redes {
+  cursor: pointer;
+  color: indianred;
+}
